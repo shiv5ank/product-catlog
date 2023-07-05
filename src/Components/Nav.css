@@ -1,0 +1,35 @@
+.nav_container {
+    margin-top: -30px;
+    padding-top: 15px;
+}
+
+.nav_container ul{
+    width: 100vw;
+    height: 8vh;
+    background-color: rgb(0, 88, 63);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+.nav_container li{
+    list-style: none;
+   
+    
+}
+.nav_container a{
+    font-size: large;
+    font-weight: 600;
+    text-decoration: none;
+    color: azure;
+}
+
+.nav_container a:hover {
+    background-color: rgb(153, 235, 252);
+    color: rgb(40, 9, 141);
+    font-size: large;
+    font-weight: 700;
+    padding: 20px;
+    border-radius: 5px;
+}
